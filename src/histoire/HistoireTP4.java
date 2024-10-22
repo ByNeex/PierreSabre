@@ -15,20 +15,22 @@ public class HistoireTP4 {
 		 * prof.acheter("un kimono", 50);
 		 */
 
-		 
+		/* 
+		 * 2.1)
+		 * Commercant marco = new Commercant("Marco", 20); marco.direBonjour();
+		 * marco.seFaireExtorquer(); marco.recevoir(15); marco.boire();
+		 */
 
-		 Commercant marco = new Commercant("Marco", 20); marco.direBonjour();
-		 marco.seFaireExtorquer(); 
-		 marco.recevoir(15);
-		 marco.boire();
-		 
-		 Yakuza yakuLeNoir = new Yakuza("Yaku Le Noir", "whisky", 30, "Warsong");
-		 yakuLeNoir.direBonjour();
+		Yakuza yakuLeNoir = new Yakuza("Yaku Le Noir", "whisky", 45, "Warsong");
+//		yakuLeNoir.direBonjour();
 
-		 Ronin roro = new Ronin("Roro", "shochu", 60);
-		 roro.direBonjour();
-		 roro.donner(marco);
+		Ronin roro = new Ronin("Roro", "shochu", 54);
+//		roro.direBonjour();
+//		roro.donner(marco);
 		
+		roro.provoquer(yakuLeNoir);
+		
+
 	}
 
 }
